@@ -53,7 +53,7 @@ function guessANumberProject() {
         }
             if (level) {
                 if (guess == computerGuess) {
-                    console.log("You guessed the number. Congratulations!");
+                    console.log("You guessed the number. Congratulations!🎉🎉🎉");
                     return rl.close();
                 } else if (guess < computerGuess) {
                     console.log("Higher!");
@@ -70,7 +70,7 @@ function guessANumberProject() {
                     }                    
                     game();
                 }if(tries === 0){
-                    console.log(`\nYou lost! The number was: ${computerGuess}`);
+                    console.log(`\nYou lost!😭😭😭 The number was: ${computerGuess}`);
                     return rl.close();
                 }
             }else if(guess === "end"){
@@ -102,3 +102,5 @@ function guessANumberProject() {
   game();
 }
 guessANumberProject();
+
+
